@@ -43,3 +43,25 @@ group :development, :test do
   gem 'spring'
 end
 
+
+gem 'bootstrap', '~> 4.0.0.alpha6'
+gem 'high_voltage'
+gem 'omniauth'
+gem 'omniauth-google-oauth2'
+gem 'pg'
+gem 'unicorn'
+gem 'unicorn-rails'
+
+group :development do
+  gem 'better_errors'
+  gem 'foreman'
+  gem 'hub', :require=>nil
+  gem 'rails_apps_pages'
+  gem 'rails_layout'
+end
+
+group :development, :test do
+  gem 'pry-rails'
+  gem 'pry-rescue'
+end
+
